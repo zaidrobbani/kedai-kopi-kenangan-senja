@@ -536,11 +536,20 @@ footer > .credit > p > a {
   border-radius: 10px;
 }
 
-.modal > .modal-container > .modal-content > .product-content > .products-stars {
+.modal
+  > .modal-container
+  > .modal-content
+  > .product-content
+  > .products-stars {
   padding-top: 1rem;
 }
 
-.modal > .modal-container > .modal-content > .product-content > .products-stars > .star-full {
+.modal
+  > .modal-container
+  > .modal-content
+  > .product-content
+  > .products-stars
+  > .star-full {
   fill: var(--primary);
 }
 
@@ -557,7 +566,7 @@ footer > .credit > p > a {
   background-color: var(--primary);
   color: #fff;
   margin-top: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1.6rem;
   border-radius: 100px;
 }
 
