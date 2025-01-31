@@ -516,6 +516,7 @@ footer > .credit > p > a {
   border: 1px solid #666;
   width: 80%;
   animation: animateModal 0.5s;
+  border-radius: 15px;
 }
 
 .modal > .modal-container > .close-icon {
@@ -532,6 +533,7 @@ footer > .credit > p > a {
   height: 24rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  border-radius: 10px;
 }
 
 .modal > .modal-container > .modal-content > .product-content > p {
@@ -547,7 +549,8 @@ footer > .credit > p > a {
   background-color: var(--primary);
   color: #fff;
   margin-top: 1rem;
-  padding: 1rem 1.6rem;
+  padding: 1rem 1.8rem;
+  border-radius: 100px;
 }
 
 /* Modal Animation */
@@ -569,6 +572,13 @@ footer > .credit > p > a {
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
+  }
+
+  .modal > .modal-container > .modal-content > .product-content > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
   }
 }
 
