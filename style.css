@@ -530,16 +530,24 @@ footer > .credit > p > a {
 }
 
 .modal > .modal-container > .modal-content > img {
-  height: 24rem;
+  height: 15rem;
   margin-right: 2rem;
   margin-bottom: 2rem;
   border-radius: 10px;
 }
 
+.modal > .modal-container > .modal-content > .product-content > .products-stars {
+  padding-top: 1rem;
+}
+
+.modal > .modal-container > .modal-content > .product-content > .products-stars > .star-full {
+  fill: var(--primary);
+}
+
 .modal > .modal-container > .modal-content > .product-content > p {
   font-size: 1.2rem;
   line-height: 1.8rem;
-  margin-top: 1.2rem;
+  margin-top: 0.5rem;
 }
 
 .modal > .modal-container > .modal-content > .product-content > a {
@@ -549,7 +557,7 @@ footer > .credit > p > a {
   background-color: var(--primary);
   color: #fff;
   margin-top: 1rem;
-  padding: 1rem 1.8rem;
+  padding: 1rem 2rem;
   border-radius: 100px;
 }
 
